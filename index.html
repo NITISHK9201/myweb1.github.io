@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Webpage 3</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        nav{
+            position: ;
+            background:lightslategray;
+            width: 100%;
+            padding: 2% 0px;
+            z-index:;
+        }
+
+        nav.menu {
+            max-width: 2000px;
+            margin: ;
+            display: inline-flex;
+            flex-direction:row ;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+
+    
+        .menu .buttons a{
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 25px;
+            font-weight: 800;
+            display: ;
+            border: 2px solid aliceblue;
+            border-radius: 10px;
+            
+
+
+        }
+
+        .menu .buttons a:hover{
+            color: aliceblue;
+            background: black;
+
+
+        }
+
+        .menu ul{
+            display: inline-flex;
+            margin-left: 500px;
+            margin-top: 30px;
+
+        }
+
+        .menu ul li{
+            list-style: none;
+            margin-left: 10px;
+            
+        }
+
+        .menu ul li:first-child{
+            margin-left: 0;
+
+        }
+
+        .menu ul li a{
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 15px;
+            font-weight: 500;
+            padding: 8px 10px;
+            border-radius: 5px;
+
+        }
+
+        .menu ul li a:hover{
+            background-color: rgb(240, 255, 245);
+            color: rgb(46, 31, 31);
+        }
+
+        .menu .buttons{
+            text-align: right;
+            margin-top: ;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            height: 10px;
+            width:;
+            border-radius: 5px;
+            border: none;
+            margin: 0 10px;
+            border:;
+            font: 50px;
+            font-weight: 500;
+            padding: 0 10px;
+            cursor: pointer;
+            outline-offset: 1;
+
+        }
+
+        .img{
+            background: url(https://assets.entrepreneur.com/content/3x2/2000/20191112054904-FotoJet32.jpeg);
+            width: 100%;
+            height:100vh;
+            background-size: cover;
+            background-position:center;
+            position:relative;
+
+
+
+        }
+        .img::before{
+            content: '';
+            position:relative ;
+            height: 100%;
+            width: 100%;
+            background: rgba(55, 58, 100, 0.4);
+
+        }
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            width: 30%;
+            color:greenyellow;
+            font-size: 70px;
+            font-weight: 200;
+            margin-bottom: ;
+            text-align:left;
+            filter: blur(0px);
+        }
+
+        .center .sub_title {
+            color:aliceblue;
+            font-size: 20px;
+            font-weight: 600;
+
+
+        }
+
+        .center .btns {
+            margin-top: 30px;
+        }
+
+        .center .btns button {
+            height: 55px;
+            width: 170px;
+            border-radius: 5px;
+            border: none;
+            margin: 0 10px;
+            border: 2px solid blueviolet;
+            font: 20px;
+            font-weight: 500;
+            padding: 0 10px;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .center .btns button a{
+            color: black;
+            background:none;
+        }
+
+        .center .btns button a:hover{
+            color:;
+            background:aliceblue;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <nav>
+        <div class="menu">
+
+            <ul>
+                <li> <a href="#"> HOME </a> </li>
+                <li> <a href="#"> SERVICES </a> </li>
+                <li> <a href="#"> PORTFOLIO  </a> </li>
+                <li> <a href="#"> PRICING </a> </li>
+                <li> <a href="#"> ABOUT  </a> </li>
+                <li> <a href="#"> TEAM </a> </li>
+                <li> <a href="#"> CONTACT </a> </li>
+            </ul>
+
+            <div class="buttons">
+                <a href="#"> <span style="color: aliceblue;"> DOWNLOAD </span> </a>
+
+            </div>
+
+        </div>
+
+
+    </nav>
+
+    <div class="img"> </div>
+
+    <div class="center"> 
+        <div class="title"> Business is <br> Now Digital </div>
+        <div class="sub_title"> We blend insights and strategy to create digital products for forward-thinking organisations </div>
+
+        <div class="btns"> 
+            <button> GET STARTED </button>
+            <button> <a> DOWNLOAD</a>  </button>
+
+
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>
